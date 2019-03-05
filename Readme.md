@@ -46,4 +46,44 @@ restaurer un ficher
     git checkout commithash -- fichier 
 
 ignorer les fichiers: 
-    le ficheir .gitignore 
+    le fichier .gitignore 
+
+ajouter une branche 
+
+    git branch b 
+
+basculer vers une branche 
+
+    git checkout b
+
+comparer entre deux branches 
+
+    git diff b1..b2 
+
+    git branch --merged 
+
+
+supprimer une branche 
+
+    git branch -d b2 
+
+enregistrer un travail incomplet 
+
+    git stash 
+
+telecharger une copie 
+
+    git clone addr
+
+recuperer les changements depuis le serveur 
+
+    git fetch origin
+
+
+merger avec le serveur 
+
+    git merge origin/master 
+
+
+
+alias graph="git log --all --decorate --oneline --graph" 
