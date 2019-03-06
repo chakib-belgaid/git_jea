@@ -84,6 +84,14 @@ merger avec le serveur
 
     git merge origin/master 
 
+mise ajour dans le server 
 
+    git push origin master 
+
+sauvegarder les identifiants 
+
+     git config credential.helper store
+
+afficher le graph 
 
 alias graph="git log --all --decorate --oneline --graph" 
